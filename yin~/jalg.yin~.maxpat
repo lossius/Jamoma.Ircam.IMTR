@@ -1053,7 +1053,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 340.0, 148.0, 79.0 ],
-					"text" : "jcom.return pitch @type decimal @range/bounds 0. 20000. @range/clipmode low @description \"pitch in [Hz]\" @dataspace pitch @dataspace/unit/native Hz"
+					"text" : "jcom.return pitch @type decimal @range/bounds 0. 20000. @range/clipmode low @description \"pitch in [Hz]\" @dataspace time @dataspace/unit/native Hz"
 				}
 
 			}

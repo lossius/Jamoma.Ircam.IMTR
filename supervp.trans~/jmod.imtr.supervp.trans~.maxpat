@@ -439,7 +439,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 165.0, 593.0, 55.0 ],
-					"text" : "jcom.parameter spectral_envelope/max_freq @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace pitch @dataspace/unit/active midi @dataspace/unit/native midi @description \"Maximal frequency for spectral envelope transposition. Keep max_freq just above the expected frequencies of the source signal - or use a pitch tracker.\"",
+					"text" : "jcom.parameter spectral_envelope/max_freq @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @description \"Maximal frequency for spectral envelope transposition. Keep max_freq just above the expected frequencies of the source signal - or use a pitch tracker.\"",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -490,7 +490,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 115.0, 578.0, 43.0 ],
-					"text" : "jcom.parameter spectral_envelope/transpose @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace pitch @dataspace/unit/active midi @dataspace/unit/native midi @description \"Transposition of spectral envelope.\"",
+					"text" : "jcom.parameter spectral_envelope/transpose @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @description \"Transposition of spectral envelope.\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -540,7 +540,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 80.0, 590.0, 31.0 ],
-					"text" : "jcom.parameter transpose @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace pitch @dataspace/unit/active midi @dataspace/unit/native midi @description \"Pitch transposition.\"",
+					"text" : "jcom.parameter transpose @type decimal @range/bounds -12. 12. @range/clipmode none @repetitions/allow 1 @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @description \"Pitch transposition.\"",
 					"varname" : "hue_angle"
 				}
 

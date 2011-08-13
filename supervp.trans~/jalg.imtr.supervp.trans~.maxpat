@@ -92,7 +92,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.dataspace @dataspace pitch @input midi @output cents",
+									"text" : "jcom.dataspace @dataspace time @input midi @output cents",
 									"linecount" : 4,
 									"id" : "obj-2",
 									"fontname" : "Verdana",
@@ -107,7 +107,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.dataspace @dataspace pitch @input midi @output cents",
+									"text" : "jcom.dataspace @dataspace time @input midi @output cents",
 									"linecount" : 4,
 									"id" : "obj-1",
 									"fontname" : "Verdana",

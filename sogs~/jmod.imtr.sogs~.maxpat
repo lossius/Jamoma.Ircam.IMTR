@@ -348,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 415.0, 586.0, 55.0 ],
-					"text" : "jcom.parameter pitch/transpose @type array @dataspace pitch @dataspace/unit/active midi @dataspace/unit/native midi @ramp/drive scheduler @range/bounds -1200. 1200. @range/clipmode none @description \"Pitch transposition. If more than one value is given, grains will be distributed between the possible options.\""
+					"text" : "jcom.parameter pitch/transpose @type array @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @ramp/drive scheduler @range/bounds -1200. 1200. @range/clipmode none @description \"Pitch transposition. If more than one value is given, grains will be distributed between the possible options.\""
 				}
 
 			}
@@ -363,7 +363,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 510.0, 500.0, 31.0 ],
-					"text" : "jcom.parameter pitch/variation @type decimal @dataspace pitch @dataspace/unit/active midi @dataspace/unit/native midi @description \"Pitch variation.\""
+					"text" : "jcom.parameter pitch/variation @type decimal @dataspace time @dataspace/unit/active midi @dataspace/unit/native midi @description \"Pitch variation.\""
 				}
 
 			}
